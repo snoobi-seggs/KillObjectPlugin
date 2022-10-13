@@ -1,13 +1,13 @@
 package snoobi.bignose;
 
 import emu.grasscutter.plugin.Plugin;
-import snoobi.bignose.commands.FuckPaimonCommand;
+import snoobi.bignose.commands.KillObjectCommand;
 
-public final class FuckPaimon extends Plugin {
+public final class KillObject extends Plugin {
     /* Turn the plugin into a singleton. */
-    private static FuckPaimon instance;
+    private static KillObject instance;
 
-    public static FuckPaimon getInstance() {
+    public static KillObject getInstance() {
         return instance;
     }
     
@@ -18,7 +18,7 @@ public final class FuckPaimon extends Plugin {
 
     @Override public void onEnable() {
         // Register commands.
-        this.getHandle().registerCommand(new FuckPaimonCommand());
+        this.getHandle().registerCommand(new KillObjectCommand());
 
         // Log a plugin status message.
         this.getLogger().info("The testSpawn has been loaded");

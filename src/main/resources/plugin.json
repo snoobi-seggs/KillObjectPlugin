@@ -1,10 +1,10 @@
 {
-  "name": "FuckPaimon",
-  "description": "A simple command that simply deletes paimon's nipples",
+  "name": "KillObjectPlugin",
+  "description": "A simple command that simply deletes objects",
   "version": "1.2.3",
   "authors": [ "snoobiXorange" ],
   
-  "mainClass": "snoobi.bignose.FuckPaimon",
+  "mainClass": "snoobi.bignose.KillObject",
   
   "comments": [
     "ew kira is cringe"
